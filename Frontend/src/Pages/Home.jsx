@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero from '../Components/Hero'
-import LatestCollection from '../Components/LatestCollection'
-import BestSeller from '../Components/BestSellers'
-import OurPolicy from '../Components/OurPolicy'
-import NewsLetterBox from '../Components/NewsLetterBox'
+import Hero from '../components/Hero'
+import LatestCollection from '../components/LatestCollection'
+import BestSeller from '../Components/BestSeller'
+import OurPolicy from '../components/OurPolicy'
+import NewsletterBox from '../components/NewsletterBox'
 
 const Home = () => {
   return (
@@ -12,9 +12,9 @@ const Home = () => {
       <LatestCollection/>
       <BestSeller/>
       <OurPolicy/>
-      <NewsLetterBox/>
+      <NewsletterBox/>
     </div>
   )
 }
 
-export default Home
+export default Home;
