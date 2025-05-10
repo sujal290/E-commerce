@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import NavBar from './components/NavBar';
-import Sidebar from './components/Sidebar';
+import NavBar from './Components/Navbar';
+import Sidebar from './Components/Sidebar';
 import { Routes, Route } from 'react-router-dom';
 import Add from './pages/Add';
-import List from './pages/List';
-import Orders from './pages/Orders';
+import List from './Pages/List';
+import Orders from './Pages/Orders';
 import Login from './Components/Login';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
