@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from '../components/Title';
-import NewsletterBox from '../components/NewsletterBox';
+import Title from '../Components/Title';
+import NewsletterBox from '../Components/NewsLetterBox';
 import { assets } from '../assets/frontend_assets/assets';
 
 const Contact = () => {
