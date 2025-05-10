@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../Context/ShopContext';
 import Title from '../Components/Title';
 import { assets } from '../assets/frontend_assets/assets';
-import CartTotal from '../components/CartTotal';
+import CartTotal from '../Components/CartTotal'
 
 const Cart = () => {
   const { products, currency, cartItems, updateQuantity, navigate} = useContext(ShopContext);
@@ -15,7 +15,7 @@ const Cart = () => {
         if(cartItems[items][item] > 0){
           tempData.push({
             _id: items,
-            
+
             size : item,
             quantity: cartItems[items][item]
           })
