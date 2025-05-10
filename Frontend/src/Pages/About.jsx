@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../Components/Title';
+import Title from '../components/Title';
 import NewsletterBox from '../components/NewsletterBox';
 import { assets } from '../assets/frontend_assets/assets';
 

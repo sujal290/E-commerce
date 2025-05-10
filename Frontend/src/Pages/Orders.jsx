@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../Context/ShopContext'
-import Title from '../Components/Title';
 import axios from 'axios';
+import Title from '../components/Title';
 
 
 const Orders = () => {
